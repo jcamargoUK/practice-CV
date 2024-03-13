@@ -9,7 +9,7 @@
 </head>
 <body class="bg-gray-900 w-fit flex flex-col">
   <!-- NavBar  -->
-  <nav class="bg-gray-800 py-4 fixed top-0 w-full hidden md:flex z-10 border-b-2">
+  <nav class="bg-gray-800 py-4 fixed top-0 w-full hidden sm:flex z-10 border-b-2">
       <ul class="flex space-x-6 text-white">
         <li><a href="#profile">Profile</a></li>
         <li><a href="#bio">Bio</a></li>
@@ -19,59 +19,59 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
   </nav>
-  <section id="profile" class="bg-gray-800 text-white py-10 flex flex-col items-center mt-1 w-full">
-    <img src="../assets/julio.jpg" alt="Julio Camargo" class=" rounded-full h-auto w-48 my-12">
-    <a href="#" class="text-white text-4xl font-bold">Julio Camargo</a>  
+  <section id="profile" class="bg-gray-800 text-white py-5 flex flex-col md:flex-row md:pt-12 md:justify-evenly items-center w-full">
+    <img src="../assets/julio.jpg" alt="Julio Camargo" class=" rounded-full h-auto w-44 my-12">
+    <a href="#" class="text-white text-4xl font-bold md:text-6xl">Julio Camargo</a>  
   </section>
 
   <!-- Bio Section -->
-  <section id="bio" class="bg-gray-200 py-8">
-    <div class="container mx-auto">
-      <h2 class="text-2xl font-bold mb-4 mt-10">Bio</h2>
-      <p>Full Stack Web Developer with a strong foundation in web development.</p>
-      <p>Former facilities manager with valuable experience in project management, team leadership, and effective communication.</p>
-      <p>Skilled in attention to detail and critical thinking to troubleshoot issues in web development projects. Committed to working collaboratively with colleagues to ensure high-quality work and timely project delivery.</p>
-      <p>Outside of work, I enjoy heavy metal music and road cycling and movies.</p>
+  <section id="bio" class="bg-gray-200 md:px-10 lg:px-20 xl:px-56">
+    <div class="container mx-auto px-5 pb-10">
+      <h2 class="text-3xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Bio</h2>
+      <p class="xl:text-2xl">Full Stack Web Developer with a strong foundation in web development.</p>
+      <p class="xl:text-2xl">Former facilities manager with valuable experience in project management, team leadership, and effective communication.</p>
+      <p class="xl:text-2xl">Skilled in attention to detail and critical thinking to troubleshoot issues in web development projects. Committed to working collaboratively with colleagues to ensure high-quality work and timely project delivery.</p>
+      <p class="xl:text-2xl">Outside of work, I enjoy heavy metal music and road cycling and movies.</p>
     </div>
   </section>
 
   <!-- Skills Section -->
-  <section id="skills" class="bg-white py-8">
-    <div class="container mx-auto">
-      <h2 class="text-2xl font-bold mb-4">Skills</h2>
-      <ol class="flex flex-col justify-between">
-        <li>
-          <p class="text-xl font-bold">Frontend</p>
-          <p>HTML5</p>
-          <p>Javascript</p>
-          <p>CSS3</p>
-          <p>ReactJS</p>
-          <p>Bootstrap</p>
-          <p>TailwindCSS</p>
+  <section id="skills" class="bg-white py-4 mt-2 border-b-2">
+    <div class="container mx-auto px-5 pb-10">
+      <p class="text-3xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Skills</p>
+      <ol class="flex flex-col justify-between text-center">
+        <li class="mt-2 border-b-2">
+          <p class="text-2xl font-bold">Frontend</p>
+          <p class="pb-1">HTML5</p>
+          <p class="pb-1">Javascript</p>
+          <p class="pb-1">CSS3</p>
+          <p class="pb-1">ReactJS</p>
+          <p class="pb-1">Bootstrap</p>
+          <p class="pb-1">TailwindCSS</p>
         </li>
-        <li>
+        <li class="mt-2 border-b-2">
           <p class="text-xl font-bold">Backend</p>
           <p>HTML5</p>
-          <p>Javascript</p>
-          <p>CSS3</p>
-          <p>ReactJS</p>
+          <p class="pb-1">Javascript</p>
+          <p class="pb-1">CSS3</p>
+          <p class="pb-1">ReactJS</p>
         </li>
-        <li>
+        <li class="mt-2 border-b-2">
           <p class="text-xl font-bold">Testing</p>
-          <p>End to End testing with Jest</p>
-          <p>Unit testing with Cypress</p>
+          <p class="pb-1">End to End testing with Jest</p>
+          <p class="pb-1">Unit testing with Cypress</p>
         </li>
-        <li>
+        <li class="mt-2 border-b-2">
           <p class="text-xl font-bold">CI/CD</p>
-          <p>GitHub Actions</p>
+          <p class="pb-1">GitHub Actions</p>
         </li>
         <li>
           <p class="text-xl font-bold">Technologies</p>
-          <p>Figma</p>
-          <p>Miro</p>
-          <p>Visual Studio</p>
-          <p>Canva</p>
-          <p>Git</p>
+          <p class="pb-1">Figma</p>
+          <p class="pb-1">Miro</p>
+          <p class="pb-1">Visual Studio</p>
+          <p class="pb-1">Canva</p>
+          <p class="pb-1">Git</p>
         </li>
       </ol>
     </div>
@@ -79,8 +79,8 @@
 
   <!-- Education Section -->
   <section id="education" class="bg-gray-200 py-8">
-    <div class="container mx-auto">
-      <h2 class="text-2xl font-bold mb-4">Education</h2>
+    <div class="container mx-auto px-5 pb-10">
+      <p class="text-3xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Education</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida justo nec felis tincidunt, a aliquam sapien viverra. Duis eget orci in quam vehicula scelerisque. Suspendisse potenti.</p>
       <p>Nullam eget justo sit amet ipsum sodales gravida. Proin ullamcorper feugiat justo non tempor. Ut luctus, magna id congue dignissim, odio mi dictum metus, vitae ullamcorper tortor ipsum id velit.</p>
       <p>Quisque ac enim ac purus vehicula pellentesque. Sed hendrerit est ac orci consectetur, sit amet consequat velit viverra. Nam eget ligula sit amet sem imperdiet rhoncus.</p>
@@ -89,8 +89,8 @@
 
   <!-- Work Experience Section -->
   <section id="work-experience" class="bg-white py-8">
-    <div class="container mx-auto">
-      <h2 class="text-2xl font-bold mb-4">Work Experience</h2>
+    <div class="container mx-auto px-5 pb-10">
+      <h2 class="text-3xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Work Experience</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida justo nec felis tincidunt, a aliquam sapien viverra. Duis eget orci in quam vehicula scelerisque. Suspendisse potenti.</p>
       <p>Nullam eget justo sit amet ipsum sodales gravida. Proin ullamcorper feugiat justo non tempor. Ut luctus, magna id congue dignissim, odio mi dictum metus, vitae ullamcorper tortor ipsum id velit.</p>
       <p>Quisque ac enim ac purus vehicula pellentesque. Sed hendrerit est ac orci consectetur, sit amet consequat velit viverra. Nam eget ligula sit amet sem imperdiet rhoncus.</p>
@@ -99,8 +99,8 @@
 
   <!-- Contact Section -->
   <section id="contact" class="bg-gray-200 py-8">
-    <div class="container mx-auto">
-      <h2 class="text-2xl font-bold mb-4">Contact</h2>
+    <div class="container mx-auto px-5 pb-10">
+      <h2 class="text-3xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Contact</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida justo nec felis tincidunt, a aliquam sapien viverra. Duis eget orci in quam vehicula scelerisque. Suspendisse potenti.</p>
       <p>Nullam eget justo sit amet ipsum sodales gravida. Proin ullam</p>
     </div>
