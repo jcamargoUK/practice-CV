@@ -9,3 +9,9 @@
   }
 }
 
+@layer components {
+  .component_h1{
+    @apply text-2xl font-bold;
+  }
+}
+
