@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Julio Camargo</title>
+<script src="https://kit.fontawesome.com/42709c7f7d.js" crossorigin="anonymous"></script>
+
   <link href="../styles/tailwind.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-900 w-fit flex flex-col">
   <!-- NavBar  -->
-  <nav class="bg-gray-800 py-4 fixed top-0 w-full hidden sm:flex z-10 border-b-2">
+  <nav class="bg-gray-800 py-4 fixed top-0 w-full hidden sm:flex z-10 border-b-2 md:text-sm  xl:text-2xl justify-end pr-10">
       <ul class="flex space-x-6 text-white">
         <li><a href="#profile">Profile</a></li>
         <li><a href="#bio">Bio</a></li>
@@ -27,84 +29,110 @@
   <!-- Bio Section -->
   <section id="bio" class="bg-gray-200 md:px-10 lg:px-20 xl:px-56">
     <div class="container mx-auto px-5 pb-10">
-      <h2 class="text-3xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Bio</h2>
-      <p class="xl:text-2xl">Full Stack Web Developer with a strong foundation in web development.</p>
-      <p class="xl:text-2xl">Former facilities manager with valuable experience in project management, team leadership, and effective communication.</p>
-      <p class="xl:text-2xl">Skilled in attention to detail and critical thinking to troubleshoot issues in web development projects. Committed to working collaboratively with colleagues to ensure high-quality work and timely project delivery.</p>
-      <p class="xl:text-2xl">Outside of work, I enjoy heavy metal music and road cycling and movies.</p>
+      <h2 class="text-3xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Bio</h2> 
+      <p class="xl:text-xl">Welcome! I'm Julio, a building maintenance engineer from South London with over 20 years of experience. Beyond my profession, I'm deeply passionate about coding, cycling, music, and cooking.</p>
+      <p class="xl:text-xl">At 49, I'm merging my maintenance expertise with coding, particularly exploring the MERN stack. While I have much to learn, I'm eager to grow alongside a community of enthusiasts like yourself.</p>
+      <p class="xl:text-xl">Please excuse any imperfections in responsiveness; it's a work in progress. For those curious, my project source code is available on my GitHub. Let's embark on this journey of discovery together!</p>
     </div>
   </section>
 
   <!-- Skills Section -->
   <section id="skills" class="bg-white md:px-10 lg:px-20 xl:px-56">
     <div class="container mx-auto px-5 pb-10">
-      <h2 class="text-3xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Skills</h2>
+      <h2 class="text-4xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Skills</h2>
       <ol class="flex flex-col justify-between text-center">
-        <p class="text-2xl font-bold">Frontend</p>
+        <p class="text-2xl font-bold md:pt-8">Frontend</p>
         <li class="mt-2 border-b-2 md:flex md:flex-row md:justify-between md:px-5 md:py-8 ">
-          <p class="pb-1">HTML5</p>
-          <p class="pb-1">Javascript</p>
-          <p class="pb-1">CSS3</p>
-          <p class="pb-1">ReactJS</p>
-          <p class="pb-1">Bootstrap</p>
-          <p class="pb-1">TailwindCSS</p>
+          <div>
+            <p class="pb-1 font-bold text-xl">HTML5</p>
+            <i class="fab fa-html5 fa-2x"></i>
+          </div>
+          <div>
+            <p class="pb-1 xl:text-xl font-bold text-xl">Javascript</p>
+          <i class="fab fa-js fa-2x"></i>
+          </div>
+          <div>
+            <p class="pb-1 xl:text-xl font-bold text-xl">CSS3</p>
+            <i class="fab fa-css3 fa-2x"></i>
+          </div>
+          <div>
+            <p class="pb-1 xl:text-xl font-bold text-xl">ReactJS</p>
+            <i class="fab fa-react fa-2x"></i>
+          </div>      
         </li>
       </ol>
       <ol class="flex flex-col justify-between text-center">
-        <p class="text-xl font-bold md:pt-8">Backend</p>
-        <li class="mt-2 border-b-2 md:flex md:flex-row md:justify-evenly md:px-5 md:py-8">      
-          <p class="pb-1">Node</p>
-          <p class="pb-1">NoSQL</p>
-          <p class="pb-1">Database</p>
+        <p class="text-2xl font-bold md:pt-8">Backend</p>
+        <li class="mt-2 border-b-2 md:flex md:flex-row md:justify-evenly md:px-5 md:py-8">
+          <div>
+            <p class="pb-1 xl:text-xl">Node</p>
+            <i class="fab fa-node-js fa-2x"></i>          
+          </div> 
+          <div>
+            <p class="pb-1 xl:text-xl">Express</p>
+            <i class="fab fa-node-js fa-2x"></i>          
         </li>
       </ol>
       <ol class="flex flex-col justify-between text-center">
         <p class="text-xl font-bold md:pt-8">Testing</p>
         <li class="mt-2 border-b-2 md:flex md:flex-row md:justify-evenly md:px-5 md:py-8">
-          <p class="pb-1">End to End testing with Jest</p>
-          <p class="pb-1">Unit testing with Cypress</p>
+          <p class="pb-1 xl:text-xl">End to End testing with Jest</p>
+          <p class="pb-1 xl:text-xl">Unit testing with Cypress</p>
         </li>
       </ol>
       <ol class="flex flex-col justify-between text-center">
-        <li class="mt-2 border-b-2">
-          <p class="text-xl font-bold md:pt-8">CI/CD</p>
-          <p class="pb-1">GitHub Actions</p>
+        <p class="text-2xl font-bold md:pt-8">CI/CD</p>
+        <li class="mt-2 border-b-2 md:flex md:flex-row md:justify-evenly md:px-5 md:py-8">
+        <p class="pb-1 xl:text-xl">GitHub Actions</p>
+        </li>
         </li>
       </ol>
       <ol class="flex flex-col justify-between text-center">
-        <p class="text-xl font-bold md:pt-8">Technologies</p>
-        <li class="mt-2 border-b-2 md:flex md:flex-row md:justify-between md:px-5 md:py-8">
-          <p class="pb-1">Figma</p>
-          <p class="pb-1">Miro</p>
-          <p class="pb-1">Visual Studio</p>
-          <p class="pb-1">Canva</p>
-          <p class="pb-1">Git</p>
+        <p class="text-2xl font-bold md:pt-8">Technologies</p>
+        <li class="mt-2 border-b-2 md:flex md:flex-row md:justify-evenly md:px-5 md:py-8">
+          <div>
+            <p class="pb-1 xl:text-xl">Figma</p>
+            <i class="fab fa-figma fa-2x"></i>
+          </div>
+          <div>
+            <p class="pb-1 xl:text-xl">Miro</p>
+          </div>
+          <div>
+            <p class="pb-1 xl:text-xl">Visual Studio</p>
+          </div>
+          <div>
+            <p class="pb-1 xl:text-xl">Canva</p>
+          </div>
+          <div>
+            <p class="pb-1 xl:text-xl">Git</p>
+            <i class="fab fa-git fa-2x"></i>
+          </div>       
         </li>
       </ol>
     </div>
   </section>
 
   <!-- Education Section -->
-  <section id="education" class="bg-gray-200 pmd:px-10 lg:px-20 xl:px-56">
+  <section id="education" class="bg-gray-200 md:px-10 lg:px-20 xl:px-56">
     <div class="container mx-auto px-5 pb-10">
       <p class="text-3xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Education</p>
       <section>
         <h2 class="text-2xl font-bold my-3">Open University 2015 - 2018</h2>
-        <p>Computer and I.T. Modules</p>
-        <ol>
-          <li>Web technologies (TT284)</li>
-          <li>Technologies in practice (TM129)</li>
-          <li>My digital life (TU100)</li>
-          <li>Discovering mathematics (MU123)</li>
+        <p class="xl:text-xl font-bold">Computer and I.T. Modules</p>
+        <ol>  
+          <li class="xl:text-xl">Web technologies (TT284)</li>
+          <li class="xl:text-xl">Technologies in practice (TM129)</li>
+          <li class="xl:text-xl"">My digital life (TU100)</li>
+          <li class="xl:text-xl"">Discovering mathematics (MU123)</li>        
         </ol>
       </section>
       <section>
         <h2 class="text-2xl font-bold my-3">College of North West London 2000 - 2003</h2>
-        <p>HND Mechanical Engineering</p>
+        <p class="xl:text-2xl">HND Mechanical Engineering</p>
         <ol>
-          <li>With a HND in mechanical engineering, I have acquired proficiency in computer-aided design (CAD) software, mathematical and technical problem-solving skills, knowledge of manufacturing processes, and effective communication skills
+          <li class="xl:text-xl">With a HND in mechanical engineering, I have acquired proficiency in computer-aided design (CAD) software, mathematical and technical problem-solving skills, knowledge of manufacturing processes, and effective communication skills
           </li>
-          <li>I have developed expertise in analyzing and solving mechanical engineering problems in areas such as thermodynamics, fluid mechanics, and strength of materials, while also being able to communicate my ideas and designs effectively to stakeholders.</li>
+          <li class="xl:text-xl">I have developed expertise in analyzing and solving mechanical engineering problems in areas such as thermodynamics, fluid mechanics, and strength of materials, while also being able to communicate my ideas and designs effectively to stakeholders.</li>
         </ol>
       </section>
     </div>
@@ -118,28 +146,28 @@
         <h2 class="text-2xl font-bold my-3">Facilities Manager -- Oct/2018 -  Jan/2023</h2>
         <p class="text-xl font-bold md:pt-8">Institute of Psychoanalysis </p>
         <ol>
-          <li>Developed and implemented maintenance policies and procedures that reduced maintenance costs by 20% while increasing facility uptime by 15%.</li>
-          <li>Managed and supervised facility staff, resulting in a 25% increase in staff productivity and a 10% reduction in staff turnover.</li>
-          <li>Developed and managed budgets for facility operations, maintenance, and repair, achieving a 5% cost savings while maintaining high levels of service quality.</li>
+          <li class="xl:text-xl">Developed and implemented maintenance policies and procedures that reduced maintenance costs by 20% while increasing facility uptime by 15%.</li>
+          <li class="xl:text-xl">Managed and supervised facility staff, resulting in a 25% increase in staff productivity and a 10% reduction in staff turnover.</li>
+          <li class="xl:text-xl">Developed and managed budgets for facility operations, maintenance, and repair, achieving a 5% cost savings while maintaining high levels of service quality.</li>
         </ol>
       </section>
       <section>
         <h2 class="text-2xl font-bold my-3">Building Services Manager -- Mar/2009 -  Jun/2018</h2>
         <p class="text-xl font-bold md:pt-8">Coca-Cola HQ, London</p>
         <ol>
-          <li>Oversaw the installation and operation of building systems, resulting in a 20% reduction in energy consumption and a 15% increase in system efficiency.</li>
-          <li>Managed and supervised facility staff, resulting in a 25% increase in staff productivity and a 10% reduction in staff turnover.</li>
-          <li>DConducted feasibility studies, cost estimates, and risk assessments for building services systems, resulting in a reduction in project costs and an increase in project success rates.</li>
-          <li>Kept up-to-date with new technologies, regulations, and best practices in building services engineering and recommended their implementation, resulting in a 15% reduction in energy consumption and a 10% increase in system efficiency.</li>
+          <li class="xl:text-xl">Oversaw the installation and operation of building systems, resulting in a 20% reduction in energy consumption and a 15% increase in system efficiency.</li>
+          <li class="xl:text-xl">Managed and supervised facility staff, resulting in a 25% increase in staff productivity and a 10% reduction in staff turnover.</li>
+          <li class="xl:text-xl">DConducted feasibility studies, cost estimates, and risk assessments for building services systems, resulting in a reduction in project costs and an increase in project success rates.</li>
+          <li class="xl:text-xl">Kept up-to-date with new technologies, regulations, and best practices in building services engineering and recommended their implementation, resulting in a 15% reduction in energy consumption and a 10% increase in system efficiency.</li>
         </ol>
       </section>
       <section>
         <h2 class="text-2xl font-bold my-3">Building Services Supervisor -- May/2001 -  Feb/2009</h2>
         <p class="text-xl font-bold md:pt-8">London Business School</p>
         <ol>
-          <li>Supervise and manage building services staff, including maintenance workers, cleaners, and security personnel.</li>
-          <li>Ensure compliance with local, state, and federal regulations, including building codes, fire codes, and environmental regulations.</li>
-          <li>Maintain relationships with vendors and contractors for maintenance and repair services and oversee their work to ensure high-quality and timely completion.</li>
+          <li class="xl:text-xl">Supervise and manage building services staff, including maintenance workers, cleaners, and security personnel.</li>
+          <li class="xl:text-xl">Ensure compliance with local, state, and federal regulations, including building codes, fire codes, and environmental regulations.</li>
+          <li class="xl:text-xl">Maintain relationships with vendors and contractors for maintenance and repair services and oversee their work to ensure high-quality and timely completion.</li>
         </ol>
       </section>
     </div>
@@ -149,7 +177,7 @@
   <section id="contact" class="bg-gray-200 md:px-10 lg:px-20 xl:px-56">
     <div class="container mx-auto px-5 pb-10">
       <h2 class="text-3xl font-bold mb-4 pt-3 md:text-4xl lg:text-5xl xl:text-6xl">Get in Touch</h2>
-      
+      <p></p>
     </div>
   </section>
 </body>
